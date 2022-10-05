@@ -6,7 +6,7 @@ allprojects {
       url 'https://s3.amazonaws.com/salesforcesos.com/android/maven/release'
     }
     maven {
-      url 'http://jfrog.bintray.com/maven/'
+      url 'https://jfrog.bintray.com/maven/'
     }
   }
 }
