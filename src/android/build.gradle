@@ -2,12 +2,13 @@ allprojects {
   repositories {
     google()
     jcenter()
-    maven {
-      url 'https://s3.amazonaws.com/salesforcesos.com/android/maven/release'
-    }
-    maven {
-      url 'https://jfrog.bintray.com/maven/'
-    }
+    mavenCentral()
+    // maven {
+    //   url 'https://s3.amazonaws.com/salesforcesos.com/android/maven/release'
+    // }
+    // maven {
+    //   url 'https://jfrog.bintray.com/maven/'
+    // }
   }
 }
 
