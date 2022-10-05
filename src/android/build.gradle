@@ -12,5 +12,5 @@ allprojects {
 }
 
 dependencies {
-  compile "com.salesforce.service:chat-ui:4.1.0"
+  implementation "com.salesforce.service:chat-ui:4.1.0"
 }
